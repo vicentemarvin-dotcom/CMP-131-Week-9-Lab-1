@@ -6,6 +6,6 @@ def display(c):
 
 def main():
     for f in range (21):
-        Celsius(f)
-       
+        c=Celsius(f)
+        display(c)     
 main()
